@@ -12,7 +12,7 @@ function Section1({ }: Props) {
                   <div className="student-ticket-view">
                     <h3>50</h3>
                     <p>Total Students</p>
-                    <a href="/user">View All</a>
+                    <a href="/login">View All</a>
                   </div>
                   <div className="img-deposit-ticket">
                     <img src="/img/students/book.svg" alt="" />
