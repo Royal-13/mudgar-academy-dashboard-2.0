@@ -147,6 +147,8 @@ function HomeTable({}: Props) {
             </div>
           </div>
         </div>
+        
+        </div>
         <div className="pagination">
           <ReactPaginate
             previousLabel={"Previous"}
@@ -160,7 +162,6 @@ function HomeTable({}: Props) {
             activeClassName={"active"}
           />
           </div>
-        </div>
       </div>
     </div>
   );
