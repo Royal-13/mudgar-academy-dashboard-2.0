@@ -2,11 +2,9 @@ import React, { useState } from "react";
 import ReactPaginate from "react-paginate";
 
 type Props = {};
-
 function HomeTable({ }: Props) {
   const [currentPageIndex, setCurrentPageIndex] = useState(0);
   const itemsPerPage = 10;
-
   const data = [
     { name: "karan", pnumber: "1234567890", email: "yo@gmail.com", id: "2134", status: "done" },
     { name: "john", pnumber: "9876543210", email: "john@gmail.com", id: "5678", status: "in progress" },
